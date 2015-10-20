@@ -33,3 +33,43 @@ This project is a plain maven project. We will:
 
  * Add P2 repository aspect -> no content
  * Add OSGi aspect -> still no content
+ * Add the following snippet to the `pom.xml`
+ 
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.felix</groupId>
+				<artifactId>maven-bundle-plugin</artifactId>
+				<version>2.5.3</version>
+				<extensions>true</extensions>
+				<configuration>
+					<instructions>
+						<Export-Package>org.eclipse.packagedrone.ece.sample01.plain.maven</Export-Package>
+					</instructions>
+				</configuration>
+			</plugin>
+	
+			<plugin>
+				<artifactId>maven-source-plugin</artifactId>
+				<version>2.4</version>
+				<executions>
+					<execution>
+						<id>attach-sources</id>
+						<phase>package</phase>
+						<goals>
+							<goal>jar-no-fork</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+ * Add `<packaging>bundle</packaging>` to the `pom.xml`
+ * Run `mvn deploy` again
+ * Check output -> still no content
+ * Add P2 Metadata aspect -> content!
+ * Add Eclipse Source bundle aspect -> check again
+ 
+### Make it OSGi R5 / OBR
+
+ * Add the OSGi R5 repository aspect -> content!

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <stats location="http://localhost:8080">
+      <bundle id="bcpg" version="1.51.0"/>
+   </stats>
+   <feature url="features/org.eclipse.packagedrone.ece2015.sample02_1.0.0.qualifier.jar" id="org.eclipse.packagedrone.ece2015.sample02" version="1.0.0.qualifier">
+      <category name="org.eclipse.packagedrone.ece2015.category"/>
+   </feature>
+   <category-def name="org.eclipse.packagedrone.ece2015.category" label="EclipseCon 2015 - Package Drone Demo">
+      <description>
+         Foo bar
+      </description>
+   </category-def>
+   <repository-reference location="http://somewhere.else.com" enabled="true" />
+</site>

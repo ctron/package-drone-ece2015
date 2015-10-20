@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.packagedrone.ece2015.sample02"
+      label="Sample #2 - Feature"
+      version="1.0.0.qualifier">
+
+   <description url="http://packagedrone.org">
+      %description
+   </description>
+
+</feature>

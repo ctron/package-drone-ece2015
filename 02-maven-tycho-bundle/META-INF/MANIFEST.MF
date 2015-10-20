@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Sample #2 - Bundle
+Bundle-SymbolicName: org.eclipse.packagedrone.ece2015.sample02
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: Eclipse Package Drone
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Activator: org.eclipse.packagedrone.ece2015.sample02.Activator
+Bundle-ActivationPolicy: lazy
+Import-Package: org.osgi.framework;version="1.8.0"

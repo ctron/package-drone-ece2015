@@ -52,3 +52,12 @@ A first example showing the basics.
  * Use "Add artifact" to create a new generated category
 
 No matter where the meta data comes from, it is always processed the same way.
+
+### Import an artifact from another maven repository
+
+ * Choose "Import" from the channel main view
+ * Select "Maven"
+ * Import an artifact with sources
+ * Check result
+ * Add "Eclipse Source Bundle" aspect
+ * Check source bundle

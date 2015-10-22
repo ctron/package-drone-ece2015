@@ -8,4 +8,11 @@
       %description
    </description>
 
+   <plugin
+         id="org.eclipse.packagedrone.ece2015.sample02"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
 </feature>

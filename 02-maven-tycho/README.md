@@ -45,7 +45,10 @@ No luck .. content is not expanded:
  * Add the "P2 unzip" aspect
  * Check -> content (both P2 and OSGi R5/OBR)
 
-### Don't trust Package Drone ... unzip!
+### Don't trust Package Drone? ... unzip!
+
+Using the "unzip adapter" you can re-use the full P2 repository
+content created by Tycho.
 
  * Check: <http://localhost:8080/unzip/maven/latest-SNAPSHOT/tycho1/org.eclipse.packagedrone.ece2015/repo/content.jar>
  

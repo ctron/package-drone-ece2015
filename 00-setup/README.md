@@ -2,6 +2,7 @@
 
  * Download and install Package Drone
  * Startup and connect to <http://localhost:8080> or wherever you installed it
+ * Alternatively create am Oomph installation using the GitHub project "Package Drone"
  
 ### Creating a user
 
